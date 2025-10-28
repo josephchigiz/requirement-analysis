@@ -69,3 +69,41 @@ The final step is to formally review and confirm that the documented requirement
 * **Review and Approval:** Meeting with stakeholders to present the documented requirements and obtain formal sign-off (approval).
 * **Acceptance Criteria Definition:** Specifying the measurable conditions a feature must meet to be accepted by the customer upon delivery.
 * **Traceability:** Establishing links between each requirement and its source, design, code, and test cases to ensure no requirement is missed during development or testing.
+
+
+## Types of Requirements
+
+Requirements are fundamentally categorized into two types, which describe what the system does and how well it does it. Both are crucial for defining the scope of a booking management project.
+
+***
+
+### 1. Functional Requirements ⚙️
+
+**Definition:** Functional requirements specify **what the system must do**—the core actions, processes, and features that the user interacts with to achieve their goals.
+
+**Examples for a Booking Management Project (like Airbnb/OYO):**
+
+* **Search and Filter:** Users must be able to search for properties based on location, dates, price range, and property type (e.g., apartment, hotel, cabin).
+* **Property Listing and Details:** The system must display a list of available properties, including high-resolution images, detailed descriptions, amenities, and host contact information.
+* **Booking Management:** Users must be able to select available dates, confirm a reservation, and receive a booking confirmation email.
+* **User Authentication:** The system must allow new users to register an account and existing users to log in securely (e.g., via email and password or social login).
+* **Payment Processing:** The system must integrate with a third-party service (like Stripe or PayPal) to securely process payments and issue refunds.
+* **Host Management:** Hosts must have a separate dashboard to list new properties, manage their calendar availability, and update pricing.
+
+### 2. Non-functional Requirements 🛡️
+
+**Definition:** Non-functional requirements (or **quality attributes**) specify **how the system performs**—they describe the operational characteristics and quality constraints of the software.
+
+**Examples for a Booking Management Project (like Airbnb/OYO):**
+
+* **Performance:**
+    * **Response Time:** Search results must load within **2 seconds**, even with concurrent user traffic.
+    * **Scalability:** The system must be able to handle a surge of up to **10,000 concurrent users** during peak holiday seasons without degradation in performance.
+* **Security:**
+    * **Data Encryption:** All user data, including personal details and payment information, must be encrypted both in transit (using HTTPS/SSL) and at rest.
+    * **Authentication:** The system must enforce strong password policies and use Multi-Factor Authentication (MFA) for hosts.
+* **Usability:**
+    * **User Interface (UI/UX):** The mobile application must have an **intuitive interface** that allows a first-time user to complete a booking in five steps or less.
+* **Reliability:**
+    * **Uptime:** The system must maintain an uptime of **99.9%** (less than 9 hours of downtime per year).
+    * **Data Consistency:** The booking system must prevent **double-booking** (concurrent requests for the same property on the same date) by using transactional mechanisms.
