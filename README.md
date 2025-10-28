@@ -107,3 +107,32 @@ Requirements are fundamentally categorized into two types, which describe what t
 * **Reliability:**
     * **Uptime:** The system must maintain an uptime of **99.9%** (less than 9 hours of downtime per year).
     * **Data Consistency:** The booking system must prevent **double-booking** (concurrent requests for the same property on the same date) by using transactional mechanisms.
+
+## Use Case Diagrams 📊
+### What are Use Case Diagrams?
+
+Use Case Diagrams are a powerful visual modeling tool used in software engineering to represent the functional requirements of a system. They illustrate how different users (called Actors) interact with the system to achieve specific goals (called Use Cases). Essentially, they show what the system does from an external user's perspective, without detailing how these actions are performed internally.
+
+A Use Case Diagram typically consists of:
+
+- **Actors**: Represented by stick figures, these are entities (humans or other systems) that interact with the system.
+
+- **Use Cases**: Represented by ovals, these are the high-level functionalities or services the system provides to an actor.
+
+- **Relationships**: Lines connecting actors to use cases, indicating participation.
+
+***
+
+### Benefits of Use Case Diagrams:
+
+- **Clear Visual Representation**: They provide an easy-to-understand graphical overview of system functionalities, making it accessible even to non-technical stakeholders.
+
+- **Requirement Identification & Organization**: They help in identifying and structuring the main functions of a system, ensuring all critical user interactions are considered.
+
+- **Improved Communication**: They serve as an excellent communication tool between stakeholders, business analysts, and the development team, fostering a shared understanding of system scope.
+
+- **Basis for Test Cases**: Each use case can directly translate into a scenario for testing, ensuring that the system is built to meet specified user goals.
+
+***
+
+Here is a use case diagram for a Booking Management System:
