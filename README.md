@@ -27,3 +27,45 @@ Identifying errors or misunderstandings during the requirements phase is signifi
 The documented requirements serve as the ultimate **source of truth** for testing and validating the final product.
 * **Testing Benchmark:** Every requirement (both functional and non-functional) translates directly into a **test case**. This ensures that the system is thoroughly tested against the customer's exact expectations.
 * **Customer Satisfaction:** By ensuring the final system meets all the specified requirements (using **Acceptance Criteria**), the process guarantees the product is built correctly and, more importantly, that it is the **right product** that satisfies the end-user's needs.
+
+## Key Activities in Requirement Analysis
+
+Requirement Analysis is a structured process involving five major activities to ensure that all necessary information is captured, understood, and agreed upon before development begins.
+
+***
+
+### 1. Requirement Gathering 🗂️
+This is the initial step of collecting information from stakeholders about their needs and expectations for the system. The goal is to cast a wide net to capture all potential requirements.
+
+* **Interviews:** Conducting one-on-one sessions with key stakeholders (users, managers, experts) to understand their detailed needs.
+* **Surveys/Questionnaires:** Distributing forms to a large audience to collect requirements efficiently and broadly.
+* **Observation:** Watching end-users perform their current tasks to identify implicit needs or problems the users may not articulate.
+* **Document Analysis:** Reviewing existing system manuals, business policies, and procedural documents to understand current functionalities.
+
+### 2. Requirement Elicitation ✍️
+Once requirements are gathered, this activity focuses on refining, elaborating, and understanding the deeper 'why' behind the needs. It involves creative and collaborative techniques.
+
+* **Brainstorming:** Group sessions to generate and share ideas, especially for new or innovative features.
+* **Focus Groups:** Discussions with a select group of typical users to gather detailed feedback on a specific requirement or feature set.
+* **Prototyping:** Creating simple, working models of the system interface to help stakeholders visualize the concept and provide concrete feedback for refinement.
+
+### 3. Requirement Documentation 📚
+This is the formal process of recording all requirements in a clear, consistent, and structured format, making them an official reference for the entire project.
+
+* **Requirement Specification Document:** A comprehensive document detailing all **functional** (what the system does) and **non-functional** (how well the system performs) requirements.
+* **User Stories:** Writing requirements from the user's perspective, typically in the format: "As a **\[type of user]**, I want to **\[goal]** so that **\[reason/benefit]**."
+* **Use Cases:** Documenting sequences of actions between a user and the system to achieve a specific goal, often accompanied by diagrams.
+
+### 4. Requirement Analysis and Modeling 📊
+This activity involves scrutinizing the documented requirements to resolve conflicts, prioritize them, and visualize the system's structure.
+
+* **Requirement Prioritization:** Ranking requirements based on urgency, business value, risk, and feasibility (e.g., using MoSCoW: Must have, Should have, Could have, Won't have).
+* **Feasibility Analysis:** Assessing requirements from technical, operational, and financial standpoints to ensure they can be realistically implemented.
+* **Modeling:** Creating visual diagrams (like Data Flow Diagrams, Entity-Relationship Diagrams, or system architecture models) to better understand and communicate complex requirements.
+
+### 5. Requirement Validation ✅
+The final step is to formally review and confirm that the documented requirements are correct, complete, unambiguous, and meet the needs of all stakeholders.
+
+* **Review and Approval:** Meeting with stakeholders to present the documented requirements and obtain formal sign-off (approval).
+* **Acceptance Criteria Definition:** Specifying the measurable conditions a feature must meet to be accepted by the customer upon delivery.
+* **Traceability:** Establishing links between each requirement and its source, design, code, and test cases to ensure no requirement is missed during development or testing.
