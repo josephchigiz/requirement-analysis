@@ -137,4 +137,4 @@ A Use Case Diagram typically consists of:
 
 Here is a use case diagram for a Booking Management System:
 
-![booking case diagram](./images/alx-booking-uc.png)
+![booking case diagram](alx-booking-uc.png)
